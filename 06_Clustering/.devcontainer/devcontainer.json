@@ -1,0 +1,20 @@
+{
+    "name": "project-dev",
+    "workspaceFolder": "/workspaces/",
+    "build": { "dockerfile": "Dockerfile" },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+            ],
+            "settings": {
+                // General settings
+                "files.eol": "\n",
+                // vscode
+                "editor.rulers": [
+                    80,
+                    120
+                ]
+            }
+        }
+    }
+}
